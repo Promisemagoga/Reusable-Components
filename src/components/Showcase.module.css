@@ -1,0 +1,28 @@
+.showcase {
+  text-align: center;
+  padding: 4rem 2rem;
+  background-color: #c2e3eb;
+  background-image: url('/assets/pic4b.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.showcase h2 {
+  font-size: 1.8rem;
+  color: #002f4b;
+  margin-bottom: 2rem;
+  max-width: 700px;
+  margin-inline: auto;
+}
+
+.cta {
+  background-color: #002f4b;
+  color: white;
+  padding: 0.75rem 2rem;
+  border: none;
+  cursor: pointer;
+}
+
+.cta:hover {
+  background-color: #4c7685;
+}
