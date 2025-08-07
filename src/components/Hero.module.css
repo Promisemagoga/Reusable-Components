@@ -1,0 +1,48 @@
+.hero {
+  display: flex;
+  padding: 4rem 2rem;
+  background-color: #d2eaf1;
+  align-items: center;
+  justify-content: space-between;
+  background-image: url('/assets/pic1.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.left {
+  flex: 1;
+}
+
+.left h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #002f4b;
+}
+
+.left p {
+  margin: 1rem 0;
+  color: #3b3b3b;
+}
+
+.cta {
+  padding: 0.75rem 2rem;
+  border: none;
+  background-color: #002f4b;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.cta:hover {
+  background-color: #4c7685;
+}
+
+.right {
+  flex: 1;
+  text-align: right;
+}
+
+.right img {
+  max-width: 90%;
+  height: auto;
+}

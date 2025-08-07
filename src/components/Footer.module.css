@@ -1,0 +1,35 @@
+.footer {
+  background-color: #f5f5f5;
+  padding: 3rem 2rem;
+}
+
+.columns {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.columns h4 {
+  color: #002f4b;
+  margin-bottom: 1rem;
+}
+
+.columns ul {
+  list-style: none;
+  padding: 0;
+}
+
+.columns li {
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+}
+
+.columns li:hover {
+  color: #4c7685;
+}
+
+.bottom {
+  text-align: center;
+  font-size: 0.875rem;
+  color: #888;
+}
