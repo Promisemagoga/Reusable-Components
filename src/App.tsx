@@ -14,7 +14,6 @@ function App() {
         title="Ge l out arrows well slryler it pleces."
         description="Authorised furniture collections, curated with elegance and charm for your perfect interior."
         image="/assets/pic2.avif"
-        buttonText="Learn More"
       />
       {/* Uncomment and use the Section component instead of native section */}
       <Section

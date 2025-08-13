@@ -1,4 +1,5 @@
-import styles from './Hero.module.css';
+import { Button } from "../Button/Button";
+import styles from "./Hero.module.css";
 
 const Hero = () => {
   return (
@@ -7,11 +8,11 @@ const Hero = () => {
         <h1>As office dis book llove it's lijch</h1>
         <p>
           Modern workspace solutions blended with elegance and convenience.
-          Discover collections perfect for your personal and professional interiors.
+          Discover collections perfect for your personal and professional
+          interiors.
         </p>
-        <button className={styles.cta}>Discover More</button>
+        <Button text="Discover More" />
       </div>
-      
     </section>
   );
 };
