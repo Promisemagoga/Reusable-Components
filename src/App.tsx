@@ -1,9 +1,9 @@
-import Header from './components/Header';
-import Hero from './components/Hero';
-import Section from './components/Section';
-import HighlightCard from './components/HighlightCard';
-import Showcase from './components/Showcase';
-import Footer from './components/Footer';
+import Header from "./components/Header/Header";
+import Hero from "./components/Hero/Hero";
+import Section from "./components/Section/Section";
+import HighlightCard from "./components/HighlightCard/HighlightCard";
+import Showcase from "./components/Showcase/Showcase";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
