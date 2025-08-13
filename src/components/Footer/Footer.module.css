@@ -19,15 +19,6 @@
   padding: 0;
 }
 
-.columns li {
-  margin-bottom: 0.5rem;
-  cursor: pointer;
-}
-
-.columns li:hover {
-  color: #4c7685;
-}
-
 .bottom {
   text-align: center;
   font-size: 0.875rem;

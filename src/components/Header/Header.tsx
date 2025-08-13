@@ -1,3 +1,4 @@
+import { Text } from "../Text/Text";
 import styles from "./Header.module.css";
 
 const Header = () => {
@@ -6,10 +7,10 @@ const Header = () => {
       <nav className={styles.nav}>
         <div className={styles.logo}>El Bonno</div>
         <ul className={styles.navLinks}>
-          <li>Products</li>
-          <li>Interior</li>
-          <li>About</li>
-          <li>Contact</li>
+          <Text variant="span">Products</Text>
+          <Text variant="span">Interior</Text>
+          <Text variant="span">About</Text>
+          <Text variant="span">Contact</Text>
         </ul>
       </nav>
     </header>

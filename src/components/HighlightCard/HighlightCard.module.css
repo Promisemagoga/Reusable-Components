@@ -10,28 +10,6 @@
   flex: 1;
 }
 
-.text h3 {
-  font-size: 1.5rem;
-  color: #002f4b;
-}
-
-.text p {
-  color: #555;
-  margin: 1rem 0;
-}
-
-.text button {
-  padding: 0.5rem 1.5rem;
-  border: none;
-  background-color: #002f4b;
-  color: white;
-  cursor: pointer;
-}
-
-.text button:hover {
-  background-color: #4c7685;
-}
-
 .image {
   flex: 1;
   display: flex;

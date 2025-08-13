@@ -30,15 +30,6 @@
   margin: 0;
 }
 
-.navLinks li {
-  cursor: pointer;
-  transition: color 0.3s;
-}
-
-.navLinks li:hover {
-  color: #74a2ac;
-}
-
 /* Responsive breakpoints */
 
 @media (max-width: 1200px) {

@@ -6,19 +6,19 @@ const Footer = () => {
     <footer className={styles.footer}>
       <div className={styles.columns}>
         <div>
-          <Text variant="h4">Explore</Text>
+          <Text variant="h2">Explore</Text>
           <ul>
-            <li>Interior</li>
-            <li>Work</li>
-            <li>Studio</li>
+            <Text variant="span">Interior</Text>
+            <Text variant="span">Work</Text>
+            <Text variant="span">Studio</Text>
           </ul>
         </div>
         <div>
-          <Text variant="h4">Contact</Text>
+          <Text variant="h2">Contact</Text>
           <ul>
-            <li>Email</li>
-            <li>Phone</li>
-            <li>Social</li>
+            <Text variant="span">Email</Text>
+            <Text variant="span">Phone</Text>
+            <Text variant="span">Social</Text>
           </ul>
         </div>
       </div>

@@ -1,15 +1,24 @@
-h2 {
+.subHeading {
   color: #002f4b;
   margin-bottom: 1rem;
 }
 
-h1 {
+.heading {
   font-size: 2.5rem;
   font-weight: bold;
   color: #002f4b;
 }
 
-p {
+.paragraph {
   margin: 1rem 0;
   color: #3b3b3b;
+}
+
+.links {
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.links:hover {
+  color: #74a2ac;
 }
