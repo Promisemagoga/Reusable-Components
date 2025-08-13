@@ -1,11 +1,12 @@
-import styles from './Footer.module.css';
+import { Text } from "../Text/Text";
+import styles from "./Footer.module.css";
 
 const Footer = () => {
   return (
     <footer className={styles.footer}>
       <div className={styles.columns}>
         <div>
-          <h4>Explore</h4>
+          <Text variant="h4">Explore</Text>
           <ul>
             <li>Interior</li>
             <li>Work</li>
@@ -13,7 +14,7 @@ const Footer = () => {
           </ul>
         </div>
         <div>
-          <h4>Contact</h4>
+          <Text variant="h4">Contact</Text>
           <ul>
             <li>Email</li>
             <li>Phone</li>
@@ -22,7 +23,7 @@ const Footer = () => {
         </div>
       </div>
       <div className={styles.bottom}>
-        <p>&copy; 2025 El Bonno. All rights reserved.</p>
+        <Text variant="p">&copy; 2025 El Bonno. All rights reserved.</Text>
       </div>
     </footer>
   );

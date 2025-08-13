@@ -1,4 +1,15 @@
-h4 {
+h2 {
   color: #002f4b;
   margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #002f4b;
+}
+
+p {
+  margin: 1rem 0;
+  color: #3b3b3b;
 }
