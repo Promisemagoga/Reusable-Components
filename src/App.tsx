@@ -2,8 +2,8 @@ import Header from "./components/Header/Header";
 import Hero from "./components/Hero/Hero";
 import Section from "./components/Section/Section";
 import HighlightCard from "./components/HighlightCard/HighlightCard";
-import Showcase from "./components/Showcase/Showcase";
 import Footer from "./components/Footer/Footer";
+import Showcase from "./components/ShowCase/Showcase";
 
 function App() {
   return (
